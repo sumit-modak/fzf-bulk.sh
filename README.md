@@ -48,7 +48,7 @@ On other systems, refer to the respective package managers or official documenta
 Run the script with one of the following subcommands:
 
 ```bash
-bulk_ops <command> [path]
+fzf-bulk <command> [path]
 ```
 
 ### Commands
@@ -91,7 +91,7 @@ The script includes the following customizable settings:
 You can modify these variables at the top of the script or set the `EDITOR` environment variable before running the script:
 ```bash
 export EDITOR=vim
-bulk_ops r
+fzf-bulk r
 ```
 
 ## Notes
